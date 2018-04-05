@@ -10,6 +10,6 @@ package pain;
  * @author hp_pc
  */
 public class NewClass {
-    System        
+       
             
 }
