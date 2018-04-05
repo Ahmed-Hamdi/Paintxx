@@ -13,7 +13,7 @@ package pain;
 public class NewClass1 {
 public static void main (String[] args){
 System.out.println("Hello World");
-    System.out.println("hello ahmeedd baheey");
+    System.out.println("hello hamada");
 
 }
 }
