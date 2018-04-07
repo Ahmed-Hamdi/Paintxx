@@ -4,13 +4,14 @@
  * and open the template in the editor.
  */
 package paint.model;
+
 import java.awt.Color;
 import java.awt.Point;
 import java.util.Map;
 
 /**
  *
- * @author hp_pc
+ * @author dell-pc
  */
 public class Circle extends AbstractShape implements Shape,Cloneable{
     
@@ -72,4 +73,6 @@ public class Circle extends AbstractShape implements Shape,Cloneable{
         return super.clone(); //To change body of generated methods, choose Tools | Templates.
     }
     
+
+
 }
