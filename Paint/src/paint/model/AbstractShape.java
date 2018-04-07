@@ -4,14 +4,13 @@
  * and open the template in the editor.
  */
 package paint.model;
-
 import java.awt.Color;
 import java.awt.Point;
 import java.util.Map;
-
 /**
  *
  * @author dell-pc
+ * @author hp_pc
  */
 public  abstract class AbstractShape implements Shape{
     protected int x,y;
