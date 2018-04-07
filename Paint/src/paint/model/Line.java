@@ -9,9 +9,6 @@ package paint.model;
  *
  * @author Ahmed Bahey
  */
-public class Line extends AbstractShape {
-    Line(int x,int y)
-    {
-        super(x,y);
-    }
+public class Line {
+    
 }
