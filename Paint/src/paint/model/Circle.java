@@ -13,7 +13,7 @@ import java.util.Map;
  *
  * @author dell-pc
  */
-public class Circle extends AbstractShape implements Cloneable  {
+public class Circle extends AbstractShape implements Shape,Cloneable{
     
     
     private int  radius;
@@ -67,6 +67,12 @@ public class Circle extends AbstractShape implements Cloneable  {
     public void draw(Object canvas) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+
+    @Override
+     public Object clone() throws CloneNotSupportedException {
+        return super.clone(); //To change body of generated methods, choose Tools | Templates.
+    }
+    
 
 
 }
