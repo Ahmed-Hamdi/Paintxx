@@ -16,7 +16,7 @@ private Label label;
 
 @FXML
 private void handleButtonAction(ActionEvent event) {
-label.setText("Zeyad!");
+label.setText("Zeyad");
 }
 
 @Override
