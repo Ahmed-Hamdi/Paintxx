@@ -1,5 +1,5 @@
 
-package paint;
+package paint.controller;
 
 import java.net.URL;
 import java.util.ResourceBundle;
