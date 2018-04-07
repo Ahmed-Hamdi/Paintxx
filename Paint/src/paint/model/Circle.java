@@ -22,7 +22,7 @@ public class Circle extends AbstractShape implements Shape,Cloneable{
 		super(x, y);
 		this.radius = radius;
 	}
-//I love college
+
     @Override
     public void setPosition(Point position) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.

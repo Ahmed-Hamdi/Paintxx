@@ -19,8 +19,6 @@ private void handleButtonAction(ActionEvent event) {
 label.setText("Zeyad");
 }
 
-
-
 @Override
 public void initialize(URL url, ResourceBundle rb) {
 // TODO
