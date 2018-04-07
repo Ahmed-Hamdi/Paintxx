@@ -1,9 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package paint_project;
+
+package paint;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -11,11 +7,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-/**
- *
- * @author hp_pc
- */
-public class Paint_Project extends Application {
+
+public class Paint extends Application {
 
 @Override
 public void start(Stage stage) throws Exception {

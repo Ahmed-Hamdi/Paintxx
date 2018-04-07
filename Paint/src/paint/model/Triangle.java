@@ -1,5 +1,5 @@
 
-package paint_project.model;
+package paint.model;
 
 public class Triangle extends AbstractShape {
     Triangle(int x,int y)

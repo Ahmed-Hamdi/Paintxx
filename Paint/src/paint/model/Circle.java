@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package paint_project.model;
+package paint.model;
 
 import java.awt.Color;
 import java.awt.Point;
@@ -13,14 +13,16 @@ import java.util.Map;
  *
  * @author dell-pc
  */
-public  abstract class AbstractShape implements Shape{
-    protected int x,y;
-     AbstractShape(int x,int y)
-    {
-        this.x=x;
-        this.y=y;
-    }
-
+public class Circle extends AbstractShape implements Shape,Cloneable{
+    
+    
+    private int  radius;
+    public Circle(int x, int y, int radius)
+	{
+		super(x, y);
+		this.radius = radius;
+	}
+//I love college
     @Override
     public void setPosition(Point position) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
@@ -67,11 +69,10 @@ public  abstract class AbstractShape implements Shape{
     }
 
     @Override
-    public Object clone() throws CloneNotSupportedException {
+     public Object clone() throws CloneNotSupportedException {
         return super.clone(); //To change body of generated methods, choose Tools | Templates.
     }
     
-     
-     
-    
+
+
 }

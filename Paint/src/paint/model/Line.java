@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package paint_project.model;
+package paint.model;
 
 /**
  *
  * @author Ahmed Bahey
  */
-public class Ellipse {
+public class Line {
     
 }
