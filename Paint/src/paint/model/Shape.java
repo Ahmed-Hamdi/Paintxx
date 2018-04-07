@@ -2,9 +2,9 @@
 package paint.model;
 
 
-public interface Shape {
+public interface Shape   {
     public void setPosition(java.awt.Point position);
-public java.awt.Point getPosition();
+  public java.awt.Point getPosition();
 /* update shape specific properties (e.g., radius) */
 public void setProperties(java.util.Map<String, Double> properties);
 public java.util.Map<String, Double> getProperties();

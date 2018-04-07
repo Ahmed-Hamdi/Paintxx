@@ -9,6 +9,12 @@ package paint.model;
  *
  * @author dell-pc
  */
-public class AbstractShape {
+public  abstract class AbstractShape implements Shape {
+    protected int x,y;
+     AbstractShape(int x,int y)
+    {
+        this.x=x;
+        this.y=y;
+    }
     
 }
