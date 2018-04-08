@@ -9,10 +9,10 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 
 
-public class FXMLDocumentController implements Initializable {
+public class FXMLDocumentController implements Initializable{
 
 @FXML
-private Label label;
+public Label label;
 
 @FXML
 private void handleButtonAction(ActionEvent event) {

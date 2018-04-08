@@ -14,7 +14,7 @@ import java.util.Map;
  * @author dell-pc
  */
 public  abstract class AbstractShape implements Shape{
-    protected int x,y;
+    public int x,y;
      AbstractShape(int x,int y)
     {
         this.x=x;
